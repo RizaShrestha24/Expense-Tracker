@@ -1,0 +1,39 @@
+.form 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="date"],
+.form input[type="submit"]
+{
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+
+}
+
+.form input[type="submit"] 
+{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.form input[type="submit"]
+{
+    background-color: #45a049;
+}
+.title
+{
+    color: #088a0c;
+    text-align: center;
+    margin-top: 10px;
+}
+
