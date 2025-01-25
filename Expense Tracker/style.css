@@ -16,12 +16,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 .logo
 {
     font-size: 30px;
     color: olivedrab;
     text-decoration: none;
+}
+.navbar
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex: 1;
 }
 .navbar a
 {
@@ -32,7 +40,7 @@
 } 
 .navbar a:hover
 {
-    color: orangered;
+    text-decoration: underline;
 }
 .btn
 {
@@ -43,7 +51,7 @@
     color: olivedrab;
     cursor: pointer;
 }
-.wapper
+.wrapper
 {
     position: absolute;
     top: 0;
@@ -65,6 +73,7 @@
     margin-bottom: 40px;
     color: olivedrab;
     font-size: 30px;
+    margin-left: 80%;
 }
 .input
 {
@@ -73,6 +82,7 @@
     height: 50px;
     margin: 30px 0;
     border-bottom:  2px solid olivedrab;
+    margin-left: 80%;
 }
 .input input
 {
@@ -87,11 +97,12 @@
 }
 .remember
 {
-        font-size: 14px;
-        color: olivedrab;
-        margin: -15px 0 15px;
-        display: flex;
-        justify-content: space-between;
+    font-size: 14px;
+    color: olivedrab;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80%;
 }
 .remember a
 {
@@ -111,6 +122,7 @@
     border-radius: 40px;
     cursor: pointer;
     font-size: 18px;
+    margin-left: 40%;
 }
 .btn:hover
 {
@@ -122,6 +134,7 @@
     color: olivedrab;
     text-align: center;
     margin: 25px 0 15px;
+    margin-left: 80%;
 }
 .new p a
 {
@@ -171,4 +184,21 @@
 .form input[type="submit"]
 {
     background-color: #45a049;
+}
+.existing
+{
+    font-size: 15px;
+    color: olivedrab;
+    text-align: center;
+    margin: 25px 0 15px;
+    margin-left: 80%;
+}
+.existing p a
+{
+    color: olivedrab;
+    text-decoration: none;
+}
+.existing p a:hover
+{
+    text-decoration: underline;
 }
