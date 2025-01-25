@@ -20,9 +20,10 @@
 }
 .logo
 {
-    font-size: 30px;
+    font-size: 40px ;
     color: olivedrab;
     text-decoration: none;
+    font-family: Arial, sans-serif;
 }
 .navbar
 {
@@ -51,7 +52,7 @@
     color: olivedrab;
     cursor: pointer;
 }
-.wrapper
+.wapper
 {
     position: absolute;
     top: 0;
